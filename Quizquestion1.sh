@@ -1,7 +1,7 @@
 #! /bin/bash
 
 # Quiz question 1
-#Necati Mert Geriş
+#Necati Mert Geriş B1605.010041
 
 
 #First of all we should take the number from user
@@ -16,13 +16,13 @@ then
    echo "$x Value not perfect"     #İf the number is even then we will see that
      else
               for (( t=1;t<=$x ;t++))
-     do                                        
+     do                                        #we are determining here is it odd or even number
               for (( k=$x;k>=t;k-- ))
      do
    echo -x " "
    done
               for (( i=1;i<=t;i++ ))
-     do
+     do                                    #we are making a star piramid
    echo -x " *"
    sum=`expr $sum + 1`
    done
